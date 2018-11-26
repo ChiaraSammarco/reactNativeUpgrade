@@ -7,13 +7,12 @@ class HomeScreen extends Component {
     title: 'Welcome',
   };
   render() {
-    console.log(this.props);
     const {navigate} = this.props.navigation;
     return (
       <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
         <Text>Home Screen</Text>
         <Button
-          title="Go to Jane's profile"
+          title="Go to Jane's page"
           onPress={() => navigate('Details', {name: 'Jane'})}
         />
 
