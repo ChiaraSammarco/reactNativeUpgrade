@@ -3,25 +3,11 @@
  * https://github.com/ChiaraSammarco/reactNativeUpgrade
  **/
 
-import React from "react";
-import { createStackNavigator, createAppContainer } from "react-navigation";
+import React, {Component} from "react";
 
-import HomeScreen from './HomeScreen';
-import DetailsScreen from './DetailsScreen';
+import AppContainer from './AppContainer';
 
-const AppNavigator = createStackNavigator(
-  {
-    Home: HomeScreen,
-    Details: DetailsScreen
-  },
-  {
-    initialRouteName: "Home"
-  }
-);
-
-const AppContainer = createAppContainer(AppNavigator);
-
-export default class App extends React.Component {
+export default class App extends Component {
   render() {
     return <AppContainer />;
   }
