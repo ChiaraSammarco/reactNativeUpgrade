@@ -1,0 +1,3 @@
+rootProject.name = 'reactNativeUpgrade'
+
+include ':app'
