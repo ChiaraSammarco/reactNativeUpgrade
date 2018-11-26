@@ -5,6 +5,14 @@ import { View, Text, Button } from "react-native";
 class HomeScreen extends Component {
   static navigationOptions = {
     title: 'Welcome',
+    headerTitle: 'Logo',
+    headerRight: (
+      <Button
+        onPress={() => alert('This is a button!')}
+        title="Info"
+        color="red"
+      />
+    ),
   };
   render() {
     const {navigate} = this.props.navigation;

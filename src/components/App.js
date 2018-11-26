@@ -5,10 +5,11 @@
 
 import React, {Component} from "react";
 
-import AppContainer from './AppContainer';
+// import AppContainer from './Navigator/AppContainer';
+import TabNavigator from './TabNavigator/TabNavigator';
 
 export default class App extends Component {
   render() {
-    return <AppContainer />;
+    return <TabNavigator />;
   }
 }
