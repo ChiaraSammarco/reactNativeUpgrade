@@ -41,7 +41,6 @@ const TabNavigator = createAppContainer(createMaterialTopTabNavigator(
       inactiveTintColor: 'black',
       activeTintBackground: 'red',
       inactiveTintBackground: 'blue',
-      // pressOpacity: 1,
       labelStyle: {
         fontSize: 12,
       },
