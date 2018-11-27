@@ -6,10 +6,15 @@
 import React, {Component} from "react";
 
 // import AppContainer from './Navigator/AppContainer';
-import TabNavigator from './TabNavigator/TabNavigator';
+// import TopTabNavigator from './TopTabNavigator/TopTabNavigator';
+import Drawer from './ComplexNavigation/DrawerNavigator';
 
-export default class App extends Component {
+class App extends Component {
   render() {
-    return <TabNavigator />;
+    return <Drawer />;
   }
 }
+
+export default App;
+
+
